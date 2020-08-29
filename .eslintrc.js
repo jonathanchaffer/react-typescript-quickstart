@@ -27,7 +27,7 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/extensions": [
       "error",
-      "ignorePackages",
+      "never",
       {
         js: "never",
         jsx: "never",
