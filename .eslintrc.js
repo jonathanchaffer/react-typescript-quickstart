@@ -25,7 +25,16 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
-    "import/extensions": ["error", "never"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never",
+      },
+    ],
     "import/no-unresolved": "off",
     "no-unused-vars": "warn",
     quotes: ["error", "double"],

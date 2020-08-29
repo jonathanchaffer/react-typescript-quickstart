@@ -1,6 +1,5 @@
+import logo from "assets/logo.svg";
 import React from "react";
-import "./App.css";
-import logo from "./logo.svg";
 
 export function App(): JSX.Element {
   return (
