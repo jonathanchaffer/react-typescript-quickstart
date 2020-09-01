@@ -24,7 +24,7 @@ Open [`workspace.code-workspace`](.vscode/workspace.code-workspace) in VSCode to
 
 ## Project Structure
 
-The [`src`](src) directory contains three subdirectories: [`assets`](src/assets), [`components`](src/components), and [`styles`](src/styles). Additional subdirectories, such as `services` and `utilities` may be added as needed. [Barrelling](https://basarat.gitbook.io/typescript/main-1/barrel) is highly recommended to simplify imports as the project gets larger.
+The [`src`](src) directory contains three subdirectories: [`assets`](src/assets), [`components`](src/components), and [`styles`](src/styles). Additional subdirectories, such as `services` and `utilities` may be added as needed. [Barrelling](https://basarat.gitbook.io/typescript/main-1/barrel) is highly recommended to simplify imports as the project gets larger. If you have [export-typescript](https://marketplace.visualstudio.com/items?itemName=mscolnick.export-typescript) installed, you can run "Export typescript - all declarations (as star)" within an `index.ts` file to automatically add `export * from ./<FILE_OR_FOLDER>` for each sibling file/folder in the current directory.
 
 ## React Recommendations
 
