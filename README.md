@@ -1,6 +1,8 @@
 # react-typescript-quickstart
 
-This is a template TypeScript React project with my preferred project structure and configs. The template was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+
+This is a template TypeScript React project with my preferred project structure and configs. It's a good place to start for developers who are new to React and would like to enforce good code style and project structure. The template was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
