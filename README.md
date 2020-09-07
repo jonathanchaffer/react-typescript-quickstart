@@ -30,6 +30,8 @@ The [`src`](src) directory contains three subdirectories: [`assets`](src/assets)
 
 It is recommended that you use [functional components](https://reactjs.org/docs/components-and-props.html) over class components to utilize the [React Hooks](https://reactjs.org/docs/hooks-intro.html) API.
 
+Visit https://github.com/typescript-cheatsheets/react for lots of good practices on using TypeScript with React.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
